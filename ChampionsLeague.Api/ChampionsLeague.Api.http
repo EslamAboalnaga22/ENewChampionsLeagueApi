@@ -1,0 +1,6 @@
+@ChampionsLeague.Api_HostAddress = http://localhost:5110
+
+GET {{ChampionsLeague.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

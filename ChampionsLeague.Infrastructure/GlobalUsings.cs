@@ -1,0 +1,15 @@
+﻿global using ChampionsLeague.Core.Interfaces;
+global using ChampionsLeague.Infrastructure.Data;
+global using ChampionsLeague.Infrastructure.ErrorHandle;
+global using ChampionsLeague.Infrastructure.Repositories;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using ChampionsLeague.Core.Models;
+global using Microsoft.AspNetCore.Diagnostics;
+global using Microsoft.AspNetCore.Http;
+global using Microsoft.AspNetCore.Mvc;
+global using System.Net;
+global using System.Text.Json;
+global using Microsoft.EntityFrameworkCore.ChangeTracking;
+global using System.Text;

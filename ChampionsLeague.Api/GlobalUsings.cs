@@ -1,0 +1,10 @@
+﻿global using ChampionsLeague.Application.Commands;
+global using ChampionsLeague.Application.Queries;
+global using MediatR;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.AspNetCore.Http.Timeouts;
+global using ChampionsLeague.Core.Dtos.Request;
+global using Microsoft.AspNetCore.RateLimiting;
+global using ChampionsLeague.Application;
+global using ChampionsLeague.Infrastructure;
+global using System.Threading.RateLimiting;
